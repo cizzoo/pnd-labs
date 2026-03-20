@@ -55,6 +55,17 @@ git fetch origin
 git checkout <your-nickname>
 git pull
 ```
+---
+
+# Troubleshooting and additional advices
+
+This section contains some common issues you might encounter working with Kathara and some advices to improve your experience with the labs.
+
+To add new troubleshooting tips or advices, please create a `.md` document in your branch with a name that describes the content of the document and add your tips or advices in that document. Then, after you push your branch to this repo, create a pull request to add a link to the document in this README.md.
+
+### 1. Docker Image update broke the labs 
+Docker Image update broke the labs due to `ifup/ifdown` commands has been removed from the new kathara image.
+ [read more...](https://github.com/cizzoo/pnd-labs/blob/cizzo/docker-image-update.md)
 
 ---
 
