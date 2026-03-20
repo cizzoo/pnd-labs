@@ -1,0 +1,8 @@
+ip addr replace 172.16.2.0/24 dev eth0
+iptables -t nat -A POSTROUTING -o eth1 -j MASQUERADE
+
+ip route add default via 172.16.254.254 dev eth0
+ip route add 172.16.1.0 via 172.16.254.1 dev eth1
+
+ifup eth0
+ifup eth1

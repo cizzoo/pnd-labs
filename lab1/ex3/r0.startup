@@ -1,2 +1,4 @@
 iptables -t nat -A POSTROUTING -o eth1 -j MASQUERADE
 
+ip addr add 172.16.0.254/24 dev eth0
+ifup eth0

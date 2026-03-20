@@ -1,3 +1,5 @@
 ip addr flush eth0
 
+ip addr add 192.168.100.26/29 dev eth0
+ip route add 192.168.100.30/29 via 192.168.100.30 dev eth0
 

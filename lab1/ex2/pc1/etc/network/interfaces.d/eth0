@@ -1,0 +1,4 @@
+auto eht0
+iface eth0 inet static
+	address 192.168.100.25/28
+	gateway 192.168.100.30
