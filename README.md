@@ -24,8 +24,13 @@ This repo contains solutions to the labs for the PND course from different users
 ```bash
 git checkout -b <your-nickname>
 ```
-3. Finally, commit and push your solutions to this branch.
 
+3. Finally, commit and push your solutions to this branch.
+```
+git add .
+git commit -m "<message>"
+git push -u origin <your-nickname>
+```
 ### Push your solutions (from existing local copy)
 
 > [!WARNING]
